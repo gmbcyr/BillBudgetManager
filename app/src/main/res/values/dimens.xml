@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines.-->
+
+    <dimen name="appbar_padding_top">8dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="app_bar_height_perso">280dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="item_width">200dp</dimen>
+
+
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+    <dimen name="add_button_diameter">48dp</dimen>
+    <dimen name="add_button_diameter_dialog">38dp</dimen>
+    <dimen name="add_button_diameter_parent_dialog">40dp</dimen>
+    <dimen name="add_button_diameter_parent">50dp</dimen>
+    <dimen name="elevation_low">1dp</dimen>
+    <dimen name="elevation_high">4dp</dimen>
+    <dimen name="add_button_margin">16dp</dimen>
+    <dimen name="add_button_margin_bottom">2dp</dimen>
+
+    <dimen name="add_button_margin_custom_cal">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="layout_width">540dp</dimen>
+    <dimen name="width_view_in_layout_with_label">250dp</dimen>
+    <dimen name="width_view_3_per_row">125dp</dimen>
+    <dimen name="width_view_in_dialog_layout_with_label">200dp</dimen>
+    <dimen name="width_view_in_dialog_thin_layout_with_label">190dp</dimen>
+    <dimen name="heigh_view_in_layout">50dp</dimen>
+    <dimen name="cell_alarm_center_width">180dp</dimen>
+    <dimen name="cell_alarm_center_width_subtitle">160dp</dimen>
+    <dimen name="cell_alarm_center_height">185dp</dimen>
+    <dimen name="cell_alarm_center_margin_left">0dp</dimen>
+    <dimen name="cell_alarm_center_margin_right">0dp</dimen>
+    <dimen name="cell_alarm_center_margin_top">0dp</dimen>
+    <dimen name="cell_alarm_center_margin_bottom">0dp</dimen>
+
+    <dimen name="sous_title_marginbottom">3dp</dimen>
+    <dimen name="list_item_spacing">16dp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+</resources>

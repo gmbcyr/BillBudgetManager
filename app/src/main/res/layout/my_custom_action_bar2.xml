@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:text=""
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:gravity="left|center_vertical"
+        android:visibility="gone"/>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:id="@+id/lyt_all_list_controls"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+        android:layout_below="@+id/txtTitle">
+
+        <LinearLayout
+            android:id="@+id/lyt_navig_button"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/back_middle_action_bar"
+            android:gravity="left|top"
+            android:height="40dp"
+            android:orientation="horizontal" >
+
+            <!--Button
+                android:id="@+id/settings"
+                android:layout_width="54sp"
+                android:layout_height="60sp"
+                android:background="@drawable/customshape" /-->
+
+            <ImageView
+                android:id="@+id/img_previous"
+                android:layout_width="0px"
+                android:layout_weight="0.12"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/previous_big" >
+            </ImageView>
+
+            <TextView
+                android:id="@+id/txtCurrentMonth"
+                android:layout_width="0px"
+                android:layout_weight="0.4"
+                android:layout_height="match_parent"
+
+                android:gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF" >
+            </TextView>
+
+            <ImageView
+                android:id="@+id/img_next"
+                android:layout_width="0px"
+                android:layout_weight="0.12"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/next_big" >
+            </ImageView>
+
+            <ImageView
+                android:id="@+id/img_filter_option"
+                android:layout_width="0px"
+                android:layout_weight="0.1"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/cmbUnpaid"
+                android:contentDescription="@string/option_filter"
+                android:src="@drawable/ic_filter_list_white_24dp"/>
+
+            <!--Button
+                android:id="@+id/addEvent"
+                android:layout_width="54sp"
+                android:layout_height="60sp"
+                android:background="@drawable/top_info" /-->
+        </LinearLayout>
+
+
+
+
+
+
+        <!--Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cmbTrashed"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/cmbUnpaid" /-->
+    </LinearLayout>
+
+</LinearLayout>

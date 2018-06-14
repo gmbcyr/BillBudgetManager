@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="repeat_units">
+        <item>Once</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+
+    <string-array name="repeat_units_val" >
+        <item>no</item>
+        <item>hr</item>
+        <item>dl</item>
+        <item>wk</item>
+        <item>mt</item>
+        <item>yr</item>
+    </string-array>
+
+
+    <string-array name="repeat_units2">
+        <item>Once</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+        <item>Year</item>
+    </string-array>
+
+    <string-array name="repeat_units_val2">
+        <item>no</item>
+        <item>dl</item>
+        <item>wk</item>
+        <item>mt</item>
+        <item>yr</item>
+    </string-array>
+
+
+    <string-array name="repeat_end">
+        <item>@string/repeat_unlimited</item>
+        <item>@string/repeat_number</item>
+        <item>@string/repeat_until</item>
+    </string-array>
+
+    <string-array name="repeat_end_val">
+        <item>unli</item>
+        <item>occu</item>
+        <item>date</item>
+    </string-array>
+
+
+    <string-array name="reminder_units">
+        <item>Minute</item>
+        <item>Hour</item>
+        <item>Day</item>
+        <item>Week</item>
+        <item>Month</item>
+
+    </string-array>
+
+
+    <string-array name="reminder_val">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+
+    </string-array>
+
+    <string-array name="repeat_units_val_exclude">
+        <item>hr</item>
+        <item>dl</item>
+        <item>mt</item>
+        <item>yr</item>
+    </string-array>
+
+    <string-array name="repeat_frequency">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+
+    <string-array name="repeat_frequency_hour">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+    </string-array>
+
+
+
+    <string-array name="category">
+        <item>Divers</item>
+        <item>Health</item>
+        <item>Auto Insurance</item>
+        <item>Food</item>
+        <item>Rent</item>
+    </string-array>
+
+    <string-array name="category_val">
+        <item>divers</item>
+        <item>health</item>
+        <item>auto insurance</item>
+        <item>food</item>
+        <item>rent</item>
+    </string-array>
+
+
+    <string-array name="month_label">
+
+        <item name="jan">JAN</item>
+        <item name="feb">FEB</item>
+        <item name="mar">MAR</item>
+        <item name="apr">APR</item>
+        <item name="may">MAY</item>
+        <item name="jun">JUN</item>
+        <item name="jul">JUL</item>
+        <item name="aou">AOU</item>
+        <item name="sep">SEP</item>
+        <item name="oct">OCT</item>
+        <item name="nov">NOV</item>
+        <item name="dec">DEC</item>
+
+    </string-array>
+
+
+    <string-array name="week_label">
+
+        <item name="sun">S</item>
+        <item name="mon">M</item>
+        <item name="tue">T</item>
+        <item name="wed">W</item>
+        <item name="thu">T</item>
+        <item name="fri">F</item>
+        <item name="sat">S</item>
+
+    </string-array>
+
+
+    <string-array name="week_label_Monday_first">
+
+
+        <item name="mon">M</item>
+        <item name="tue">T</item>
+        <item name="wed">W</item>
+        <item name="thu">T</item>
+        <item name="fri">F</item>
+        <item name="sat">S</item>
+        <item name="sun">S</item>
+
+    </string-array>
+
+
+
+
+    <string-array name="currency_list_most_used" translatable="false">
+
+        <item>USD</item>
+        <item>EUR</item>
+        <item>JPY</item>
+        <item>GBP</item>
+        <item>AUD</item>
+        <item>CAD</item>
+        <item>CHF</item>
+        <item>CNY</item>
+        <item>SEK</item>
+        <item>NZD</item>
+        <item>MXN</item>
+        <item>SGD</item>
+        <item>HKD</item>
+        <item>NOK</item>
+        <item>KRW</item>
+        <item>TRY</item>
+        <item>RUB</item>
+        <item>INR</item>
+        <item>BRL</item>
+        <item>ZAR</item>
+        <item>XAF</item>
+    </string-array>
+
+
+    <string-array name="context_menu">
+        <item>@string/ctx_mn_edit</item>
+        <item>@string/ctx_mn_pay</item>
+        <item>@string/ctx_mn_delete</item>
+    </string-array>
+
+    <string-array name="context_menu_val">
+        <item>@string/ctx_mn_edit_val</item>
+        <item>@string/ctx_mn_pay_val</item>
+        <item>@string/ctx_mn_delete_val</item>
+    </string-array>
+
+
+    <string name="ctx_mn_edit">Edit</string>
+    <string name="ctx_mn_pay">Pay</string>
+    <string name="ctx_mn_delete">Delete this event</string>
+    <string name="ctx_mn_delete_all">Delete this repeating event</string>
+
+    <string name="ctx_mn_edit_val" translatable="false">edit</string>
+    <string name="ctx_mn_pay_val" translatable="false">pay</string>
+    <string name="ctx_mn_delete_val" translatable="false">delete</string>
+    <string name="ctx_mn_delete_all_val" translatable="false">deleteall</string>
+</resources>

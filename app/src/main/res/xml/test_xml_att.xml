@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <declare-styleable name="attrXML">
+        <attr name="spinHint0" format="string" />
+        <attr name="spinHeight0" format="dimension" />
+        <attr name="spinWidth0" format="dimension" />
+        <attr name="spinTextSize0" format="dimension" />
+        <attr name="spinTextColor0" format="color" />
+        <attr name="spinfillColor0" format="color" />
+        <attr name="spinListVal0" format="enum" />
+        <attr name="spinListShown0" format="enum" />
+        <attr name="spinPrompt0" format="string" />
+    </declare-styleable>
+
+</resources>

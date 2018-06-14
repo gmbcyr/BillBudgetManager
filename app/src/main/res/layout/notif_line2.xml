@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout5"
+        android:layout_width="wrap_content"
+        android:layout_height="82dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="2dp">
+
+        <TextView
+            android:id="@+id/txtNotifLineMois"
+            style="@style/AppThemeListing.Subheader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:alpha="0.8"
+            android:gravity="center_horizontal|top"
+            android:text="May."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNotifLineJour"
+            style="@style/AppThemeListing.Subheader"
+            android:layout_width="wrap_content"
+            android:layout_height="27dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="2dp"
+            android:alpha="0.75"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="08"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotifLineMois" />
+
+        <TextView
+            android:id="@+id/txtNotifLineHour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="0dp"
+            android:alpha="0.75"
+            android:text="6:45PM"
+            android:textSize="10sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotifLineJour" />
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout5"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="3dp">
+
+        <TextView
+            android:id="@+id/txtNotifLineNom"
+            style="@style/AppThemeListing.Title"
+            android:layout_width="214dp"
+            android:layout_height="29dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:alpha="0.95"
+            android:text="TextView"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtNotifLineDue"
+            style="@style/AppThemeListing.Subheader"
+            android:layout_width="214dp"
+            android:layout_height="23dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="2dp"
+            android:alpha="0.75"
+            android:gravity="left|center_vertical"
+            android:text="Due in 5 days"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotifLineNom" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/constraintLayout4"
+            android:layout_width="86dp"
+            android:layout_height="78dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imgNotifLinePaid"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="32dp"
+                android:layout_marginStart="32dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/back_bottom_bar_button" />
+
+            <TextView
+                android:id="@+id/txtNotifLineMontant"
+                style="@style/AppThemeListing.Subheader"
+                android:layout_width="66dp"
+                android:layout_height="65dp"
+                android:alpha="0.85"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="$1,250"
+                android:text="$1,250"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.511"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </android.support.constraint.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/txtNotifLineNote"
+            style="@style/AppThemeListing.Subheader"
+            android:layout_width="217dp"
+            android:layout_height="17dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:alpha="0.75"
+            android:gravity="left|center_vertical"
+            android:text="Note: should check the effectiveness"
+            android:textSize="9sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/constraintLayout4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtNotifLineDue" />
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

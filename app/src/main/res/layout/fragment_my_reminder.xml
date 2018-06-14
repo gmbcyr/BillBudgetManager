@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gmb.bbm2.MyReminderDialog">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reminder_option"
+
+            android:layout_alignParentTop="true"
+            style="@style/sousTitle.dialogTitle"
+            />
+
+        <Spinner
+
+            android:id="@+id/rmder_type"
+            android:layout_gravity="left"
+            android:entries="@array/category_val"
+            android:prompt="@array/category"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            style="@style/viewInLayoutWithLabel"
+
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/back_textview"/>
+
+        <Spinner
+
+            android:id="@+id/rmder_val"
+            android:layout_gravity="left"
+            android:entries="@array/category_val"
+            android:prompt="@array/category"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            style="@style/viewInLayoutWithLabel"
+
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/back_textview"/>
+
+        <RelativeLayout
+            android:id="@+id/lyt_cmd"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/bbm_stat_lyt_repeat"
+            android:background="@drawable/back_bottom_bar_button">
+
+            <ImageView
+                android:id="@+id/cmd_valid"
+                android:layout_width="@dimen/add_button_diameter"
+                android:layout_height="@dimen/add_button_diameter"
+                android:layout_gravity="right|center_vertical"
+                android:elevation="@dimen/elevation_low"
+                android:stateListAnimator="@anim/button_elevation"
+                tools:ignore="RtlCompat"
+
+                android:layout_alignParentRight="true"
+
+                android:src="@drawable/my_ok_col"
+                android:background="@drawable/back_button"
+                />
+
+            <ImageView
+                android:id="@+id/cmd_cancel"
+                android:layout_width="@dimen/add_button_diameter"
+                android:layout_height="@dimen/add_button_diameter"
+                android:layout_gravity="left|center_vertical"
+                android:elevation="@dimen/elevation_low"
+                android:stateListAnimator="@anim/button_elevation"
+                tools:ignore="RtlCompat"
+
+                android:layout_alignParentLeft="true"
+
+
+                android:src="@android:drawable/ic_delete"
+                android:background="@drawable/back_button_cancel"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

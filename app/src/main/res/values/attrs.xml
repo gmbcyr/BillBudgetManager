@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+
+    <declare-styleable name="customSpinnerAsInput">
+        <attr name="spinHint" format="string" />
+        <attr name="spinDefault" format="string"/>
+        <attr name="spinHeight" format="dimension" />
+        <attr name="spinWidth" format="dimension" />
+        <attr name="spinTextSize" format="dimension" />
+        <attr name="spinTextColor" format="color" />
+        <attr name="spinfillColor" format="color" />
+        <attr name="spinListVal" format="enum" />
+        <attr name="spinListShown" format="enum" />
+        <attr name="spinPrompt" format="string" />
+        <attr name="android:entries" />
+    </declare-styleable>
+
+</resources>

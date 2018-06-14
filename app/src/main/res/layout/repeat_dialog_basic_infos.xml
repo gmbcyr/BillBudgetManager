@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/repeat_frag_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/more_option"
+
+        android:layout_alignParentTop="true"
+        style="@style/sousTitle.dialogTitle"
+
+        android:layout_marginBottom="2dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/bbm_stat_lyt_repeat"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="visible"
+            android:layout_marginBottom="7dp">
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/lyt_row_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+                style="@style/sousTitle.sansBackCol"
+                android:padding="0dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notification_setup"
+                    android:id="@+id/txt_notif_setup"
+
+                    style="@style/sousTitle"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_notif_setup"
+                    android:padding="5dp">
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/text_input_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:visibility="gone"
+                        android:hint="Label">
+
+                        <EditText
+                            android:id="@+id/edit_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <TextView
+                        android:labelFor="@+id/txt_time_start_label"
+                        android:text="@string/bbm_stat_start_time_label"
+
+                        android:layout_alignTop="@+id/txt_time_start"
+                        style="@style/labelInEditText"
+                        />
+
+
+                    <TextView
+                        android:inputType="none"
+                        android:id="@+id/txt_time_start"
+                        android:enabled="true"
+
+                        android:layout_below="@+id/text_input_layout"
+                        style="@style/labelInEditTextView"
+                        android:layout_height="35dp"
+                        android:gravity="bottom"/>
+
+
+                    <TextView
+                        android:id="@+id/txt_time_start_val"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+                    </TextView>
+
+                    <TextView
+
+                        android:text="@string/repeat_type"
+
+
+                        android:layout_alignTop="@+id/cmb_repeat_unit"
+                        style="@style/labelInEditText"/>
+
+
+                    <LinearLayout
+                        android:id="@+id/lyt_repeat_freq"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_below="@+id/cmb_repeat_unit"
+                        android:background="@drawable/back_textview">
+
+                        <TextView
+                            android:id="@+id/txt_repeat_freq_label"
+                            android:text="@string/repeat_every"
+
+                            android:layout_below="@+id/cmb_repeat_unit"
+                            style="@style/labelInEditText"
+
+                            android:layout_width="0dp"
+                            android:layout_weight="0.3"
+                            android:gravity="bottom|left"
+                            android:layout_gravity="center_vertical|left"/>
+
+
+                        <Spinner
+                            android:id="@+id/cmb_repeat_freq"
+                            android:gravity="right|top"
+                            android:entries="@array/repeat_frequency_hour"
+                            android:prompt="@array/repeat_units"
+
+                            android:layout_below="@+id/cmb_repeat_unit"
+                            style="@style/labelInEditTextView.FreqRepeat"
+
+                            android:layout_width="0dp"
+                            android:layout_weight="0.1"/>
+
+                        <TextView
+                            android:id="@+id/txt_repeat_freq_unit"
+                            android:text="weeks"
+
+                            android:layout_below="@+id/cmb_repeat_unit"
+                            style="@style/labelInEditText"
+
+                            android:layout_width="0dp"
+                            android:layout_weight="0.45"
+                            android:gravity="bottom|left"
+                            android:layout_gravity="center_vertical|left"/>
+
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:id="@+id/lyt_masquable"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+
+                        android:layout_below="@+id/lyt_repeat_freq"
+                        android:background="@drawable/back_textview"
+                        >
+
+                        <LinearLayout
+                            android:id="@+id/repeat_stat_lyt_repeat_on"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_weight="0.11"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+
+                            android:layout_below="@+id/cmb_repeat_freq"
+                            style="@style/viewInLayoutWithLabel">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/repeat_day" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_sunday"
+                                    android:id="@+id/chkSunday" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_monday"
+                                    android:id="@+id/chkMonday" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_tuesday"
+                                    android:id="@+id/chkTuesday" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_wednesday"
+                                    android:id="@+id/chkWedn" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_thursday"
+                                    android:id="@+id/chkThursday" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_friday"
+                                    android:id="@+id/chkFriday" />
+
+                                <CheckBox
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_saturday"
+                                    android:id="@+id/chkSaturday" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/lyt_type_repeat_month"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:visibility="gone"
+                            android:layout_weight="0.11"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginLeft="5dp"
+
+                            android:layout_below="@+id/repeat_cmb_unit">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/repeat_Month_by" />
+
+                            <RadioGroup
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="55dp"
+                                    android:text="@string/repeat_day_month"
+                                    android:id="@+id/rdbRepeatByDayOfMonth"
+                                    android:layout_gravity="left"
+                                    android:checked="true" />
+
+                                <RadioButton
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="@string/repeat_day_week_month"
+                                    android:id="@+id/rdbRepeatByDayOfWeekInMonth"
+                                    android:layout_gravity="left"
+                                    android:checked="false"
+                                    android:layout_weight="0.13" />
+
+
+
+                            </RadioGroup>
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/lyt_row_2"
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_weight="0.11"
+
+                        android:gravity="left"
+                        android:layout_below="@+id/lyt_masquable"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="5dp"
+
+                        android:visibility="visible"
+                        android:background="@drawable/back_textview">
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_weight="0.5"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+
+                                android:text="@string/repeat_ending"
+                                android:layout_alignTop="@+id/cmb_repeat_end"
+                                style="@style/labelInEditText"/>
+
+                            <Spinner
+
+                                android:id="@+id/cmb_repeat_end"
+                                android:entries="@array/repeat_end"
+                                android:prompt="@array/repeat_end"
+
+
+                                android:layout_alignParentTop="true"
+                                style="@style/labelInEditTextView"/>
+
+                        </RelativeLayout>
+
+
+
+
+
+                        <LinearLayout
+                            android:orientation="horizontal"
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal">
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/repeat_number"
+                                android:inputType="number"
+
+                                android:id="@+id/txt_nbr_repeat"
+                                android:layout_gravity="center_vertical|left"/>
+
+
+                            <EditText
+                                android:id="@+id/bbm_stat_edit_txt_dateend"
+                                android:layout_width="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_height="wrap_content"
+                                android:hint="@string/bbm_stat_end_date_label"
+                                android:layout_gravity="center_vertical|left"/>
+
+
+
+                            <EditText
+                                android:id="@+id/bbm_stat_edit_txt_dateend_val"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="gone" />
+
+
+                        </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+                    <Spinner
+
+                        android:id="@+id/cmb_repeat_unit"
+                        android:entries="@array/repeat_units2"
+                        android:prompt="@array/repeat_units2"
+
+
+                        style="@style/labelInEditTextView"
+                        android:layout_height="45dp"
+                        android:layout_below="@+id/txt_time_start"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginTop="5dp"/>
+
+                </RelativeLayout>
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_below="@+id/lyt_row_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                style="@style/sousTitle.sansBackCol"
+                android:paddingLeft="0dp">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reminder_title"
+                    android:id="@+id/textView3"
+
+                    style="@style/sousTitle"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView3">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_add_new_reminder"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:text="@string/add_new_reminder"
+                        android:textAllCaps="true"
+
+                        android:layout_marginBottom="7dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginRight="7dp"
+
+                        style="@style/myTextApparence.lien"/>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_add_new_reminder"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/bbm_stat_lyt_reminder_01"
+                        android:background="@drawable/back_textview"
+                        android:layout_marginTop="5dp"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_011"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_012"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_013"
+
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="false"
+                            android:layout_toLeftOf="@+id/cmd_reminder_011"
+                            style="@style/viewInLayoutWithLabel"
+                            />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cmd_reminder_011"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/ic_clear_black_24dp"
+                            android:background="@drawable/back_textview"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bbm_stat_lyt_reminder_01"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/bbm_stat_lyt_reminder_02"
+                        android:visibility="gone"
+                        android:background="@drawable/back_textview"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_021"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_022"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_023"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="false"
+                            android:layout_toLeftOf="@+id/cmd_reminder_021"
+                            style="@style/viewInLayoutWithLabel"
+                            />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cmd_reminder_021"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/ic_clear_black_24dp" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/bbm_stat_lyt_reminder_02"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:id="@+id/bbm_stat_lyt_reminder_03"
+                        android:visibility="gone"
+                        android:background="@drawable/back_textview"
+                        android:layout_marginTop="5dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_031"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_032"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:text="New Text"
+                            android:id="@+id/txt_reminder_033"
+
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentRight="false"
+                            android:layout_toLeftOf="@+id/cmd_reminder_031"
+                            style="@style/viewInLayoutWithLabel"
+                            />
+
+                        <ImageButton
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/cmd_reminder_031"
+                            android:layout_alignParentRight="true"
+                            android:src="@drawable/ic_clear_black_24dp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+
+
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

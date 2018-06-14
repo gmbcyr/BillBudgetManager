@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/eltOfList.listNotif"
+    android:layout_margin="0dp"
+    android:id="@+id/lyt_listing_total"
+    android:background="@drawable/shadowed_back_little_transp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/income_affiche"
+            android:id="@+id/txtIncomeLabel"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="$0.00"
+            android:id="@+id/txtIncome"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/txtIncomeLabel"
+            android:layout_toEndOf="@+id/txtIncomeLabel" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/expense_affiche"
+            android:id="@+id/txtExpensesLabel"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/txtExpenses"
+            android:layout_toStartOf="@+id/txtExpenses" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="$0.00"
+            android:id="@+id/txtExpenses"
+            android:layout_marginRight="2dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/balance_affiche"
+            android:id="@+id/txtBalanceLabel"
+            android:layout_below="@+id/txtIncomeLabel"
+            android:layout_marginLeft="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="$0.00"
+            android:id="@+id/txtBalance"
+            android:layout_below="@+id/txtIncome"
+            android:layout_marginRight="2dp"
+            android:layout_toRightOf="@+id/txtBalanceLabel"
+            android:layout_toEndOf="@+id/txtBalanceLabel" />
+
+
+        <ImageView
+            android:id="@+id/imgViewSort"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:src="@drawable/ic_sort_white_24dp"
+            android:layout_below="@+id/txtExpenses"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="2dp"
+            />
+
+
+</RelativeLayout>

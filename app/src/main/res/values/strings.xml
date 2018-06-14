@@ -1,0 +1,933 @@
+<resources>
+
+    <!--*********************Mes options Options interchangeant pour eviter d'avoir a corriger ou modifier un param a plusieurs endroits***********************************************************-->
+
+
+    <string name="show_pub" translatable="false">0</string>
+    <string name="ad_id_interstitial_in_use" translatable="false">@string/ad_id_interstitial_test</string>
+    <string name="ad_id_banner_in_use" translatable="false">@string/ad_id_banner_test</string>
+
+
+    <!--*********************FIN Mes options Options interchangeant pour eviter d'avoir a corriger ou modifier un param a plusieurs endroits***********************************************************-->
+
+    <!--Mes options pour le dev-->
+    <string name="bbm_sys_pref" translatable="false">BBMsysPref</string>
+    <string name="bbm_sys_auth_need" translatable="false">swt_protect_data</string>
+    <string name="bd_version" translatable="false">0</string>
+    <string name="pub_percent" translatable="false">15</string>
+    <string name="pub_percent_correction" translatable="false">7.0</string>
+    <string name="ad_id_banner_test" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="ad_id_banner" translatable="false">ca-app-pub-1246499090499999/9010131463</string>
+    <string name="ad_id_interstitial_test" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="ad_id_interstitial" translatable="false">ca-app-pub-1246499090499999/1068062268</string>
+
+
+    <string name="app_name">Bill Budget Manager</string>
+    <string name="app_name_short" translatable="false">BBM </string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="no_data_yet">No Data found for the Table</string>
+
+    <!--RepeatStatement Text & label -->
+
+
+    <!--Bbm_Statement Text & label -->
+    <string name="bbm_stat_nom_label">Event name</string>
+    <string name="bbm_stat_montant_label">Event Amount</string>
+    <string name="bbm_stat_descrip_label">Event description</string>
+    <string name="bbm_stat_start_date_label">Start date</string>
+    <string name="bbm_stat_end_date_label">End date</string>
+    <string name="bbm_stat_start_time_label">Start time</string>
+    <string name="bbm_stat_edit_date_label">Select the date</string>
+    <string name="date_pattern">MMM-dd-yyyy</string>
+    <string name="date_pattern_short">MM-dd-yyyy</string>
+    <string name="hour_pattern">h:mm a</string>
+
+
+    <!--Include_repeating Text & label -->
+    <string name="repeat_frequency">Frequency</string>
+    <string name="repeat_monday">Mo</string>
+    <string name="repeat_tuesday">Tu</string>
+    <string name="repeat_wednesday">We</string>
+    <string name="repeat_thursday">Th</string>
+    <string name="repeat_friday">Fr</string>
+    <string name="repeat_saturday">Sa</string>
+    <string name="repeat_sunday">Su</string>
+
+    <string name="repeat_day">Select days of week</string>
+    <string name="repeat_unlimited">Forever</string>
+    <string name="repeat_number">number</string>
+    <string name="repeat_Month_by">Select day in month</string>
+    <string name="repeat_day_month">Day of month. ex. 22nd</string>
+    <string name="repeat_day_week_month">Day of week. ex. 2nd Friday</string>
+
+
+    <string name="type_end_occu" translatable="false">occu</string>
+
+
+    <string name="title_activity_accueil">AccueilActivity</string>
+
+    <string name="title_section1">Income</string>
+    <string name="title_section2">Expence</string>
+    <string name="title_section3">Unpaid list</string>
+    <string name="title_section4">Upcoming</string>
+    <string name="title_first_open">Upcoming</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="sens_credit" translatable="false">credit</string>
+    <string name="sens_debit" translatable="false">debit</string>
+    <string name="sens_credit_affiche">Incomes</string>
+    <string name="sens_debit_affiche">Expenses</string>
+
+    <string name="income_affiche">Incomes : </string>
+    <string name="income_affiche_simple">Incomes </string>
+    <string name="expense_affiche">Expenses : </string>
+    <string name="expense_affiche_simple">Expenses </string>
+    <string name="balance_affiche">Balance : </string>
+    <string name="balance_affiche_simple">Balance </string>
+    <string name="more">MORE...</string>
+
+    <string name="current_state_running" translatable="false">running</string>;
+    <string name="current_state_done" translatable="false">done</string>
+    <string name="current_state_canceled" translatable="false">canceled</string>
+    <string name="current_state_missed" translatable="false">missed</string>
+    <string name="current_state_deleted" translatable="false">deleted</string>
+
+    ;
+
+    <string name="cat_cmdSave">Save</string>
+    <string name="add_new">[ADD NEW]</string>
+    <string name="add_new_val">addnew</string>
+
+    <string name="add_divers_affiche">OTHERS</string>
+    <string name="add_divers">divers</string>
+
+    <string name="add_cat_home" translatable="false">sys_cat_house</string>
+    <string name="add_cat_transportation" translatable="false">sys_cat_transportation</string>
+    <string name="add_cat_food" translatable="false">sys_cat_food</string>
+    <string name="add_cat_health" translatable="false">sys_cat_health</string>
+    <string name="add_cat_fun" translatable="false">sys_cat_fun</string>
+    <string name="add_cat_utilities" translatable="false">sys_cat_utilities</string>
+    <string name="add_cat_debt" translatable="false">sys_cat_debt</string>
+    <string name="add_cat_income" translatable="false">sys_cat_income</string>
+
+
+    <string name="add_cat_home_affiche">Housing</string>
+    <string name="add_cat_transportation_affiche">Transportation</string>
+    <string name="add_cat_food_affiche">Food</string>
+    <string name="add_cat_health_affiche">Health</string>
+    <string name="add_cat_fun_affiche">Entertainment</string>
+    <string name="add_cat_utilities_affiche">Utilities</string>
+    <string name="add_cat_debt_affiche">Debt</string>
+    <string name="add_cat_income_affiche">Income</string>
+
+
+    <string name="add_event_income_salary" translatable="false">sys_event_income_salary</string>
+    <string name="add_event_income_other" translatable="false">sys_event_income_other</string>
+
+    <string name="add_event_transp_auto_loan" translatable="false">sys_event_transp_auto_loan</string>
+    <string name="add_event_transp_insurance" translatable="false">sys_event_transp_insurance</string>
+    <string name="add_event_transp_gas" translatable="false">sys_event_transp_gas</string>
+    <string name="add_event_transp_maintenance" translatable="false">sys_event_transp_maintenance</string>
+    <string name="add_event_transp_registration" translatable="false">sys_event_transp_registration</string>
+    <string name="add_event_transp_other" translatable="false">sys_event_transp_other</string>
+
+
+    <string name="add_event_home_mortgage" translatable="false">sys_event_home_mortgage</string>
+    <string name="add_event_home_rent" translatable="false">sys_event_home_rent</string>
+    <string name="add_event_home_furniture" translatable="false">sys_event_home_furniture</string>
+    <string name="add_event_home_supplies" translatable="false">sys_event_home_supplies</string>
+    <string name="add_event_home_maintenance" translatable="false">sys_event_home_maintenance</string>
+    <string name="add_event_home_registration" translatable="false">sys_event_home_registration</string>
+    <string name="add_event_home_insurance" translatable="false">sys_event_home_insurance</string>
+    <string name="add_event_home_real_estate_tax" translatable="false">sys_event_home_real_estate_tax</string>
+    <string name="add_event_home_other" translatable="false">sys_event_home_other</string>
+
+
+    <string name="add_event_utils_home_phone" translatable="false">sys_event_utils_home_phone</string>
+    <string name="add_event_utils_cell_phone" translatable="false">sys_event_utils_cell_phone</string>
+    <string name="add_event_utils_cable" translatable="false">sys_event_utils_cable</string>
+    <string name="add_event_utils_water" translatable="false">sys_event_utils_water</string>
+    <string name="add_event_utils_electricity" translatable="false">sys_event_utils_electricity</string>
+    <string name="add_event_utils_internet" translatable="false">sys_event_utils_internet</string>
+    <string name="add_event_utils_other" translatable="false">sys_event_utils_other</string>
+
+
+    <string name="add_event_fun_movies" translatable="false">sys_event_fun_movies</string>
+    <string name="add_event_fun_music" translatable="false">sys_event_fun_music</string>
+    <string name="add_event_fun_events" translatable="false">sys_event_fun_events</string>
+    <string name="add_event_fun_vacation" translatable="false">sys_event_fun_vacation</string>
+    <string name="add_event_fun_membership" translatable="false">sys_event_fun_membership</string>
+    <string name="add_event_fun_other" translatable="false">sys_event_fun_other</string>
+
+
+    <string name="add_event_health_dental" translatable="false">sys_event_health_dental</string>
+    <string name="add_event_health_medical" translatable="false">sys_event_health_medical</string>
+    <string name="add_event_health_medication" translatable="false">sys_event_health_medication</string>
+    <string name="add_event_health_vision" translatable="false">sys_event_health_vision</string>
+    <string name="add_event_health_emergency_kit" translatable="false">sys_event_health_emergency_kit</string>
+    <string name="add_event_health_other" translatable="false">sys_event_health_other</string>
+
+
+    <string name="add_event_food_groceries" translatable="false">sys_event_food_groceries</string>
+    <string name="add_event_food_dining_out" translatable="false">sys_event_food_dining_out</string>
+    <string name="add_event_food_fast_food" translatable="false">sys_event_food_fast_food</string>
+    <string name="add_event_food_lunch_at_work" translatable="false">sys_event_food_lunch_at_work</string>
+    <string name="add_event_food_other" translatable="false">sys_event_food_other</string>
+
+
+    <string name="add_event_income_salary_affiche">Salary</string>
+    <string name="add_event_income_other_affiche">Other</string>
+
+    <string name="add_event_transp_auto_loan_affiche">Auto loan</string>
+    <string name="add_event_transp_insurance_affiche">Insurance</string>
+    <string name="add_event_transp_gas_affiche">Gas</string>
+    <string name="add_event_transp_maintenance_affiche">Maintenance</string>
+    <string name="add_event_transp_registration_affiche">Registration</string>
+    <string name="add_event_transp_other_affiche">Other</string>
+
+
+    <string name="add_event_home_mortgage_affiche">Mortgage</string>
+    <string name="add_event_home_rent_affiche">Rent</string>
+    <string name="add_event_home_furniture_affiche">Furniture</string>
+    <string name="add_event_home_supplies_affiche">Supplies</string>
+    <string name="add_event_home_maintenance_affiche">Maintenance</string>
+    <string name="add_event_home_registration_affiche">Registration</string>
+    <string name="add_event_home_insurance_affiche">Home insurance</string>
+    <string name="add_event_home_real_estate_tax_affiche">Real Estate Tax</string>
+    <string name="add_event_home_other_affiche">Other</string>
+
+
+    <string name="add_event_utils_home_phone_affiche">Home phone</string>
+    <string name="add_event_utils_cell_phone_affiche">Cell phone</string>
+    <string name="add_event_utils_cable_affiche">Cable</string>
+    <string name="add_event_utils_water_affiche">Water</string>
+    <string name="add_event_utils_electricity_affiche">Electricity</string>
+    <string name="add_event_utils_internet_affiche">Internet</string>
+    <string name="add_event_utils_other_affiche">Other</string>
+
+
+    <string name="add_event_fun_movies_affiche">Movies</string>
+    <string name="add_event_fun_music_affiche">Music</string>
+    <string name="add_event_fun_events_affiche">Events</string>
+    <string name="add_event_fun_vacation_affiche">Vacation</string>
+    <string name="add_event_fun_membership_affiche">Membership</string>
+    <string name="add_event_fun_other_affiche">Other</string>
+
+
+    <string name="add_event_health_dental_affiche">Dental</string>
+    <string name="add_event_health_medical_affiche">Medical</string>
+    <string name="add_event_health_medication_affiche">Medication</string>
+    <string name="add_event_health_vision_affiche">Vision</string>
+    <string name="add_event_health_emergency_kit_affiche">Emergency kit</string>
+    <string name="add_event_health_other_affiche">Other</string>
+
+
+    <string name="add_event_food_groceries_affiche">Groceries</string>
+    <string name="add_event_food_dining_out_affiche">Dining out</string>
+    <string name="add_event_food_fast_food_affiche">Fast food</string>
+    <string name="add_event_food_lunch_at_work_affiche">Lunch at work</string>
+    <string name="add_event_food_other_affiche">Other</string>
+
+
+    <string name="all_year">ALL</string>
+
+
+    <string name="context_menu_title">Event Context Menu</string>
+    <string name="context_menu_edit">Edit</string>
+    <string name="context_menu_delete">Delete this event</string>
+    <string name="context_menu_delete_all">Delete this repeating event</string>
+    <string name="context_menu_paid">Pay</string>
+
+    <string name="alert_dialog_delete">Confirm deletion?</string>
+    <string name="alert_dialog_ok">YES</string>
+    <string name="alert_dialog_cancel">NO</string>
+
+    <string name="msg_confirm_delete">Item deleted</string>
+    <string name="msg_confirm_paid">Item set as paid</string>
+
+    <string name="repeat_every">Repeat every </string>
+    <string name="repeat_how_long">times</string>
+    <string name="repeat_until">until</string>
+    <string name="click_to_edit">(click to edit)</string>
+
+
+    <string name="onback_quit">EXIT THE APPLICATION?</string>
+    <string name="onback_really_quit">Please confirm your choice</string>
+    <string name="onback_yes">YES</string>
+    <string name="onback_no">NO</string>
+    <string name="ok">OK</string>
+
+    <string name="past_month_print_color" translatable="false">GREY</string>
+    <string name="next_month_print_color" translatable="false">GREY</string>
+    <string name="current_day_month_print_color" translatable="false">RED</string>
+    <string name="current_month_print_color" translatable="false">WHITE</string>
+    <string name="week_title" translatable="false">DARK</string>
+
+
+    <string name="launcher_page_welcome">Welcome to Bill Budget Manager please enter some
+        information to customize for you.</string>
+    <string name="by_gmb">by GMB.</string>
+    <string name="Launcher_page_username">Please enter your username</string>
+
+    <string name="must_provide_usr_name">Sorry,You must provide a user name</string>
+
+    <string name="usr_name_saved">Data saved with success !</string>
+
+    <string name="notif_option">Please chose among actions below</string>
+    <string name="notif_option_click_edit">Please click to edit</string>
+    <string name="notif_nbre">new events</string>
+
+    <string name="due">intended due : </string>
+    <string name="due_reel">Actual due : </string>
+
+    <string name="bbm_stat_edit_button_cancel_label">Cancel</string>
+    <string name="bbm_stat_edit_button_delete_label">Delete</string>
+    <string name="bbm_stat_edit_button_confirm_label">Confirm</string>
+    <string name="bbm_stat_edit_button_more_label">More...</string>
+
+    <string name="amount_invalide">You must provide a valid amount.</string>
+
+    <string name="work_in_process">Please Wait. Work in process...</string>
+
+    <string name="add_new_reminder">New Reminder</string>
+    <string name="reminder_title">REMINDERS</string>
+
+    <string name="notification_setup">NOTIFICATIONS SETUP</string>
+
+    <string name="repeating_yes">repeating</string>
+    <string name="repeating_no">One time</string>
+
+    <string name="must_fill_out_field">Please fill out every required field before continue</string>
+    <string name="choose_date_range">Select date range</string>
+
+    <string name="sort_by">Sort by</string>
+    <string name="sort_by_date_aff">Date</string>
+    <string name="sort_by_amount_aff">Amount</string>
+    <string name="sort_by_name_aff">Name</string>
+
+    <string name="paid_item">Paid item</string>
+    <string name="bbm_stat_note_label">Event Note</string>
+    <string name="notif_reminder_label">Gentle reminder before a due</string>
+    <string name="option_filter">Filter options</string>
+    <string name="is_auto_pay">Is automatic pay</string>
+    <string name="title_activity_config">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+
+    <string-array name="notif_priority_title">
+        <item>MAX</item>
+        <item>HIGH</item>
+        <item>DEFAULT</item>
+        <item>LOW</item>
+    </string-array>
+    <string-array name="notif_priority_values">
+        <item>4</item>
+        <item>3</item>
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">Event due date notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="switch_mouse_bouton">Switch click/long Click action </string>
+    <string name="notif_priority">Set Notification Priority, from standard to hight</string>
+    <string name="swt_mouse_bouton_summary">Allow to switch the fonction of simple click and long click.</string>
+    <string name="title_activity_accueil2">Accueil2Activity</string>
+    <string name="accueil_title">Home</string>
+    <string name="calculator">Calculator</string>
+    <string name="income_list">Income list</string>
+    <string name="expense_list">Expenses list</string>
+    <string name="chart_report">Chart report</string>
+    <string name="add_new_credit">Add new income</string>
+    <string name="add_new_debit">Add new expense</string>
+    <string name="cat_cmdCancel">Cancel</string>
+    <string name="title_frag_new_category">Create new category</string>
+    <string name="cat_name">Category name</string>
+    <string name="montant_min">Minimum amount</string>
+    <string name="allow_overdue_insert">Overdue insert allowed</string>
+    <string name="add_category">New category</string>
+    <string name="list_category">Category list</string>
+    <string name="play_store_not_installed">Could not open Android market, please install the market app.</string>
+    <string name="share_body">Hi Check out this app</string>
+    <string name="share_subject">Share this app</string>
+    <string name="share_via">Share via</string>
+    <string name="uri_base_gp_app" translatable="false">https://play.google.com/store/apps/details?id=</string>
+    <string name="uri_base_gp" translatable="false">market://details?id=</string>
+    <string name="command">Command</string>
+    <string name="pref_default_file_name" translatable="false">BBMexported</string>
+    <string name="pref_default_db_name" translatable="false">bbmDBexported</string>
+    <string name="pref_title_use_default_file_name">Use default file name to export</string>
+    <string name="pref_desc_use_default_file_name">If set to yes, the default file name will be use at every export. If set to No, the file name will be ask at every export.</string>
+    <string name="pref_default_export_dir" translatable="false">BBManager/ExportedFiles</string>
+    <string name="pref_default_cat_min_amount" translatable="false">10.00</string>
+    <string name="pref_title_default_export_dir">Defaut directory to receive exported files.</string>
+    <string name="pref_title_default_cat_min_amount">Amount min to add an activity to the category</string>
+    <string name="pref_title_default_file_name">Default file name</string>
+    <string name="pref_title_default_db_name">Default Database file name</string>
+    <string name="pref_desc_default_file_name">File name use to export. This value will be use to export file. And will be automatically updated if the user enter a different file name while exporting.</string>
+    <string name="pref_desc_default_currency">Edit this field and set your local currency. It will be use anytime an amount is showed.</string>
+    <string name="pref_desc_default_export_dir">Default directory where the file will be exported.</string>
+    <string name="pref_desc_default_cat_min_amount">To avoid any activity set up with the amount 0, there is an amount min for every category. You can change this value, or go to category setting to
+    edit the min of each category</string>
+    <string name="name_aff">Name</string>
+    <string name="amount_aff">Amount</string>
+    <string name="file_name">File name</string>
+    <string name="title_frag_export_file">Edit File Name</string>
+    <string name="pref_header_export">Export file</string>
+    <string name="pref_header_db">Database</string>
+    <string name="event_type">Event type</string>
+    <string name="primary_info">Primary informations</string>
+    <string name="add_new_cat_title">Add new category</string>
+    <string name="action_btn_cancel">Cancel</string>
+    <string name="pref_title_default_currency">Default Currency</string>
+    <string name="filter_dialog_title">Filter options</string>
+    <string name="label_period">Select periode</string>
+    <string name="label_choix_category">Select category</string>
+    <string name="label_choose_type">Select type</string>
+    <string name="label_choose_status">Select status</string>
+    <string name="label_choose_date_between">date between</string>
+    <string name="label_choose_date_and">And</string>
+    <string name="speech_prompt">Please say your command! or say \"stop\" to cancel</string>
+    <string name="speech_not_supported">Sorry!  speech input is not supported by your device.</string>
+    <string name="commande_unknown">Sorry can\\\'t get command, type instead of speech</string>
+    <string name="no_commande_in_speech">Sorry we can\\\'t get a command in your speech</string>
+    <string name="hour_str">hour</string>
+    <string name="minute_str">minute</string>
+    <string name="year_str">year</string>
+    <string name="month_str">month</string>
+    <string name="week_str">week</string>
+    <string name="day_str">day</string>
+    <string name="show_reminder_infos">Remind on %1$s. (%2$s %3$s before due date)</string>
+    <string name="reminder_overdue">Sorry this reminder is ovedue. Check the event date and time</string>
+    <string name="reminder_added">Reminder added!</string>
+    <string name="allow_overdue_insert_summary">By Default, It is not allowed to insert overdue events. By setting this, you should be able to add overdue events</string>
+    <string name="not_overdue_date_allowed">Sorry! overdue date is not allowed</string>
+    <string name="cant_edit_this_notif">Can\'t edit. this notif is already paid</string>
+
+    <string name="overview_in">Income : %1$s</string>
+    <string name="overview_out" translatable="false">Expense : %1$s</string>
+    <string name="overview_bal">Balance : %1$s</string>
+    <string name="overview_in_target" translatable="false">%1$s</string>
+    <string name="overview_in_actual" translatable="false">%1$s(%2$s)</string>
+    <string name="overview_in_bal" translatable="false">%1$s</string>
+    <string name="overview_out_target" translatable="false">%1$s</string>
+    <string name="overview_out_actual" translatable="false">%1$s(%2$s)</string>
+    <string name="overview_out_bal" translatable="false">%1$s</string>
+    <string name="notify_for_new_notif">BBM new notification</string>
+    <string name="overview_summary">Overview</string>
+    <string name="title_gap">GAP</string>
+    <string name="title_actual">Actual</string>
+    <string name="title_target">Target</string>
+    <string name="income_label">Income</string>
+    <string name="tap_egain_to_exit">Tap back button again in order to exit</string>
+    <string name="income_not_receive">Unreceived :</string>
+    <string name="income_planned">Planned:</string>
+    <string name="income_receive">Received:</string>
+    <string name="depense_not_receive">Unpaid:</string>
+    <string name="depense_planned">Prediction:</string>
+    <string name="depense_paid">Paid:</string>
+    <string name="status_paid_affiche">Paid</string>
+    <string name="status_unpaid_affiche">Unpaid</string>
+    <string name="status_paid" translatable="false">true</string>
+    <string name="status_unpaid" translatable="false">false</string>
+    <string name="montant_must_over_min">You must enter an amount beyond the min set.</string>
+    <string name="of" translatable="false">/</string>
+    <string name="total_budget">Total Budget</string>
+    <string name="mois1">January</string>
+    <string name="category_name">Category name</string>
+    <string name="depense_max">Depense Max</string>
+    <string name="set_montant_par_mois">Set different budget each month</string>
+    <string name="amount_invalide_mois">You must provide a valid amount for each month</string>
+    <string name="def_budget">Set Budget</string>
+    <string name="period_dialog_title">Select date range</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="save_as_paid">Set as paid</string>
+    <string name="nav_draw_home">Home</string>
+    <string name="nav_draw_income">Incomes</string>
+    <string name="nav_draw_expense">Expenses</string>
+    <string name="nav_draw_upcoming">Upcoming</string>
+    <string name="nav_draw_year_overview">Year overview</string>
+    <string name="nav_draw_budget">Budget</string>
+    <string name="nav_draw_chart_report">Trends</string>
+    <string name="nav_draw_detail_chart_report">Detail trends</string>
+    <string name="nav_draw_share">Share</string>
+    <string name="nav_draw_rate">Rate this App</string>
+    <string name="nav_draw_category">Category setting</string>
+    <string name="nav_draw_settings">Settings</string>
+    <string name="item_not_found">Impossible to find the item</string>
+    <string name="op_completed">Operation completed.</string>
+    <string name="msg_delete_unpaid_only">Only unpaid events will be edited.</string>
+    <string name="today">today</string>
+    <string name="today_sub_title">Today</string>
+    <string name="days">days</string>
+    <string name="overdue">overdue</string>
+    <string name="delete_repeating">Delete this repeating event? \n\nNo=delete only this one.\n\nYes=delete all of them.\n\nHit back to cancel</string>
+    <string name="total_evt">Total notification :</string>
+    <string name="nav_draw_alarm_center">Notifications center</string>
+    <string name="unbudgeted">Unbudgeted</string>
+    <string name="nbre_unbudgeted">Total unbudgeted :</string>
+    <string name="exceed_budget">Exceed</string>
+    <string name="nbre_exceed_budget">Total budget exceed :</string>
+    <string name="budget_set">Set :  %1$s</string>
+    <string name="budget_predicted">Target :  %1$s(%2$s)</string>
+    <string name="budget_reste">Left :  %1$s</string>
+    <string name="budget_actual">Paid:  %1$s(%2$s)</string>
+    <string name="notif_missed">Missed</string>
+    <string name="nbre_notif_missed">Total event missed :</string>
+    <string name="alert_dialog_cancel_button">Cancel</string>
+    <string name="setup_budget">Budget setup</string>
+    <string name="label_choix_year">Select year</string>
+    <string name="label_choose_Month">Select Month</string>
+    <string name="depense_affiche">Expenses</string>
+    <string name="month_short1">J</string>
+    <string name="month_short2" translatable="false">F</string>
+    <string name="month_short3" translatable="false">M</string>
+    <string name="month_short4" translatable="false">A</string>
+    <string name="month_short5" translatable="false">M</string>
+    <string name="month_short6" translatable="false">J</string>
+    <string name="month_short7" translatable="false">J</string>
+    <string name="month_short8" translatable="false">A</string>
+    <string name="month_short9" translatable="false">S</string>
+    <string name="month_short10">O</string>
+    <string name="month_short11" translatable="false">N</string>
+    <string name="month_short12" translatable="false">D</string>
+    <string name="annual_overview">Annual Overview</string>
+    <string name="bar_trends">Bar trends</string>
+    <string name="total_Pie" translatable="false">Total : %1$s</string>
+    <string name="nbre_op_pie" translatable="false">Transactions : %1$s</string>
+    <string name="min_pie" translatable="false">Min : %1$s</string>
+    <string name="max_pie" translatable="false">Max : %1$s</string>
+    <string name="category_simple">Category</string>
+    <string name="category_simple_deux_point">Category : </string>
+    <string name="over_limit">Over Limit</string>
+    <string name="over_limit_msg">This new item will be over the limit set in the configuration.\n Edit setting or Insert over limit</string>
+    <string name="op_cancelled">Operation cancelled.</string>
+    <string name="go_to_config">Go to setting</string>
+    <string name="block_over_budget_insert">Block over budget insert</string>
+    <string name="block_over_budget_insert_summary">By Default, It is not allowed to insert over budget depense. By setting this, you should be able to add over budget depenses.</string>
+    <string name="repeat_ending">Type end repeat</string>
+    <string name="char_income">Income by category</string>
+    <string name="char_expense">Expense by category</string>
+    <string name="period_from">From %1$s to %2$s</string>
+    <string name="add_new_expense">New expense</string>
+    <string name="about_app">About the App</string>
+    <string name="private_policy">Private Policy</string>
+    <string name="communicate">Communicate</string>
+    <string name="help">Help</string>
+    <string name="nav_draw_save_db">Save Database</string>
+    <string name="nav_draw_upload_db">Upload Database</string>
+    <string name="nav_draw_about">About the App</string>
+    <string name="nav_draw_policy">Private Policy</string>
+    <string name="nav_draw_terms">Terms of service</string>
+    <string name="nav_draw_help">Help</string>
+    <string name="pref_save_db">Save database...</string>
+    <string name="click_to_save_db">click here to save DB right now. This will save your actual database for further use.</string>
+    <string name="pref_upload_db">Upload database...</string>
+    <string name="click_to_upload_db">Click here to upload a new database right now. Note: this action will arease all existing data and replace with the new data</string>
+    <string name="pref_save_db_key" translatable="false">pref_save_db</string>
+    <string name="pref_upload_db_key" translatable="false">pref_upload_db</string>
+    <string name="no_list_to_show">Sorry, no list yet!</string>
+    <string name="less">less...</string>
+    <string name="total_month">Monthly : %1$s</string>
+    <string name="total_year">Yearly : %1$s</string>
+    <string name="total_year_simple">Yearly </string>
+    <string name="add_new_txt">ADD NEW</string>
+    <string name="mode_avance">Advance mode</string>
+    <string name="expo_date_label">Date event</string>
+    <string name="month">Month :</string>
+    <string name="year">Year :</string>
+    <string name="date_due">Due date</string>
+    <string name="amount_due">$</string>
+    <string name="more_option">More options</string>
+    <string name="repeat_type">Repeat type</string>
+
+
+    <string name="reminder_option">Reminders options</string>
+    <string name="go">GO</string>
+    <string name="logo">logo</string>
+    <string name="export_data">Export data</string>
+    <string name="img_detail">Image Detail</string>
+    <string name="action_btn_force_insert">Force insert</string>
+    <string name="activity_trends">Activities trends</string>
+    <string name="notif_list">Notifications list</string>
+    <string name="file_dir">File directory</string>
+    <string name="open_after_export">Open after export</string>
+    <string name="txt_default_file_name" translatable="false">txt_default_file_name</string>
+    <string name="txt_default_file_dir" translatable="false">txt_default_file_dir</string>
+    <string name="chk_default_pref_open_after_export" translatable="false">chk_default_pref_open_after_export</string>
+    <string name="default_pref_use_gen_export_param" translatable="false">default_pref_use_gen_export_param</string>
+    <string name="my_title_separator" translatable="false"><![CDATA[#$&#]]></string>
+    <string name="txt_default_fields_selected" translatable="false">txt_default_fields_selected</string>
+    <string name="field_to_export">Fields available</string>
+    <string name="add_field_to_export">Add to export</string>
+    <string name="must_select_least_one">Please select at least one field.</string>
+    <string name="monthly_amount">Monthly total</string>
+    <string name="yearly_amount">total Annual</string>
+    <string name="period_to">to</string>
+
+    <string name="export_month">Month</string>
+    <string name="export_income">Incomes</string>
+    <string name="export_expense">Expenses</string>
+    <string name="export_balance">Balance</string>
+    <string name="export_target_in">Income target</string>
+    <string name="export_actual_in">Actual income</string>
+    <string name="export_gap_in">Income gap</string>
+    <string name="export_target_out">Expenses target</string>
+    <string name="export_actual_out">Actual expenses</string>
+    <string name="export_gap_out">Gap expenses</string>
+
+    <string name="export_cat_name">Category</string>
+    <string name="export_budget_set">Budget Set</string>
+    <string name="export_expense_target">Expenses target</string>
+    <string name="export_Actual_expense">Expenses paid</string>
+    <string name="export_budget_left">Budget left</string>
+    <string name="export_budget_percent_paid">Paid(%)</string>
+    <string name="export_budget_used">budget used(%)</string>
+    <string name="export_budget_by_cat">Budget by Category</string>
+    <string name="export_annual_overview">Annual Overview</string>
+    <string name="export_upcoming_event">Upcoming event</string>
+    <string name="select_currency">Select Currency</string>
+    <string name="currency_list">Currency list</string>
+
+    <string name="no_data_to_export">No Data available to export, please create some data and retry.</string>
+    <string name="got_it">Got It</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_confirm">Confirm</string>
+    <string name="switch_protect_data">Protect your data by login/password</string>
+    <string name="swt_protect_data_summary">Use this button to switch to data protected by login/password</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="auth_failed">Authentification failed!</string>
+    <string name="btn_link_to_signup">Don\'t have an account, Signup !!</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="btn_link_to_login">Already registered. Login !!</string>
+    <string name="nav_draw_logout">Logout</string>
+    <string name="err_msg_email">Enter a valid email.</string>
+    <string name="err_msg_required">Required !!</string>
+    <string name="amount_aff_due">Amount due</string>
+    <string name="no_record_found">Oops, NO RECORD FOUND !</string>
+
+
+    <!--String to delete later just for restaurant test-->
+
+
+    <string name="value_any_category">All food</string>
+    <string name="value_any_city">Anywhere</string>
+    <string name="value_any_price">Any price</string>
+
+    <string name="price_1">$</string>
+    <string name="price_2">$$</string>
+    <string name="price_3">$$$</string>
+
+    <string name="label_category">Category</string>
+    <string name="label_city">City</string>
+    <string name="label_price">Price</string>
+    <string name="label_sort_by">Sort By</string>
+
+    <string name="fmt_num_ratings" translatable="false">(%d)</string>
+    <string name="all_restaurants">All Restaurants</string>
+    <string name="header_filters">Filter</string>
+    <string name="search">Search</string>
+
+    <string name="sort_by_rating">Sort by Rating</string>
+    <string name="sort_by_popularity">Sort by Popularity</string>
+    <string name="sort_by_price">Sort by Price</string>
+
+    <string name="sorted_by_rating">sorted by rating</string>
+    <string name="sorted_by_price">sorted by price</string>
+    <string name="sorted_by_popularity">sorted by popularity</string>
+
+    <string name="add_random_items">Add Random Items</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="delete_all">Delete All</string>
+    <string name="divider_bullet">•</string>
+    <string name="apply">Apply</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="message_no_reviews">Be the first to leave a review!</string>
+    <string name="hint_review">How was your experience?</string>
+    <string name="submit">Submit</string>
+    <string name="filter_add_review">Add review</string>
+    <string name="message_no_results">No result found</string>
+    <string name="op_failed">Operation failed !</string>
+
+    <!-- Types of food I could think of in 5 minutes -->
+    <string-array name="categories">
+        <item>@string/value_any_category</item>
+
+        <item>Brunch</item>
+        <item>Burgers</item>
+        <item>Coffee</item>
+        <item>Deli</item>
+        <item>Dim Sum</item>
+        <item>Indian</item>
+        <item>Italian</item>
+        <item>Mediterranean</item>
+        <item>Mexican</item>
+        <item>Pizza</item>
+        <item>Ramen</item>
+        <item>Sushi</item>
+    </string-array>
+    ite
+
+    <!-- 50 most populous cities in the US -->
+    <string-array name="cities">
+        <item>@string/value_any_city</item>
+
+        <item>Albuquerque</item>
+        <item>Arlington</item>
+        <item>Atlanta</item>
+        <item>Austin</item>
+        <item>Baltimore</item>
+        <item>Boston</item>
+        <item>Charlotte</item>
+        <item>Chicago</item>
+        <item>Cleveland</item>
+        <item>Colorado Springs</item>
+        <item>Columbus</item>
+        <item>Dallas</item>
+        <item>Denver</item>
+        <item>Detroit</item>
+        <item>El Paso</item>
+        <item>Fort Worth</item>
+        <item>Fresno</item>
+        <item>Houston</item>
+        <item>Indianapolis</item>
+        <item>Jacksonville</item>
+        <item>Kansas City</item>
+        <item>Las Vagas</item>
+        <item>Long Beach</item>
+        <item>Los Angeles</item>
+        <item>Louisville</item>
+        <item>Memphis</item>
+        <item>Mesa</item>
+        <item>Miami</item>
+        <item>Milwaukee</item>
+        <item>Nashville</item>
+        <item>New York</item>
+        <item>Oakland</item>
+        <item>Oklahoma</item>
+        <item>Omaha</item>
+        <item>Philadelphia</item>
+        <item>Phoenix</item>
+        <item>Portland</item>
+        <item>Raleigh</item>
+        <item>Sacramento</item>
+        <item>San Antonio</item>
+        <item>San Diego</item>
+        <item>San Francisco</item>
+        <item>San Jose</item>
+        <item>Tucson</item>
+        <item>Tulsa</item>
+        <item>Virginia Beach</item>
+        <item>Washington</item>
+    </string-array>
+
+    <!-- Price filters -->
+    <string-array name="prices">
+        <item>@string/value_any_price</item>
+
+        <item>@string/price_1</item>
+        <item>@string/price_2</item>
+        <item>@string/price_3</item>
+    </string-array>
+
+    <!-- Ways you can sort restaurants -->
+    <string-array name="sort_by">
+        <item>@string/sort_by_rating</item>
+        <item>@string/sort_by_popularity</item>
+        <item>@string/sort_by_price</item>
+    </string-array>
+
+
+    <string name="contacts_permission_rationale">Access to account information is required to sign in.</string>
+    <string name="invite_menu_label">Invite</string>
+    <string name="invitation_message">Please join me for a friendly chat</string>
+    <string name="invitation_cta">Call to action</string>
+    <string name="invitation_title">Friendly Chat Invite</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="fresh_config">Fresh Config</string>
+    <string name="cause_crash">Cause Crash</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="title_activity_api">APIActivity</string>
+    <string name="weather">Show Weather</string>
+    <string name="id_request_token" translatable="false">AIzaSyAg9ZR-wxyTwYm0EFaZsnnKB8vJhxqFIM4</string>
+    <string name="my_web_key" translatable="false">208512118178-oa9c5s9vnsqopm534p7fv9offikqe6s3.apps.googleusercontent.com</string>
+
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Income</string>
+    <string name="tab_text_3">Expenses</string>
+    <string name="title_activity_main_and_menu">MainAndMenuActivity</string>
+
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_bottom_navigation">BottomNavigationActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_item_list">Items</string>
+    <string name="title_item_detail">Item Detail</string>
+    <string name="title_activity_ad_mod">AdModActivity</string>
+
+    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
+    <string name="start_level">Level 1</string>
+    <string name="next_level">Next Level</string>
+    <!-- -
+        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
+        For more information, see https://support.google.com/admob/answer/3052638
+    <!- -->
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="title_activity_sign_in2">SignIn2Activity</string>
+
+    <string name="title_activity_fullscreen2">FullscreenActivity2</string>
+    <string name="title_activity_add_bbm">AddBBMActivity</string>
+    <string name="title_frag1">Fragment 1</string>
+    <string name="title_frag2">Fragment 2</string>
+    <string name="title_activity_category_list">CategoryListActivity</string>
+    <string name="title_category_list">Categories</string>
+    <string name="title_category_detail">Category Detail</string>
+    <string name="title_notif_list">Notifs</string>
+    <string name="title_notif_detail">Notif Detail</string>
+    <string name="title_activity_app_launcher">AppLauncherActivity</string>
+    <string name="repeat_option">Repeat Option</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_amout">Event Amount</string>
+    <string name="repeat_dialog_title">Repeat options</string>
+    <string name="mode_update">Mode Update</string>
+    <string name="how_update_notif">Will you update all notifications on this event? \n yes=update all, \nno=update only this one.</string>
+    <string name="mi_logout">Logout</string>
+
+</resources>

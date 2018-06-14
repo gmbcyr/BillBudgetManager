@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="alarm_center_cel00" type="id"/>
+    <item name="alarm_center_cel01" type="id"/>
+    <item name="alarm_center_cel02" type="id"/>
+    <item name="alarm_center_cel03" type="id"/>
+    <item name="alarm_center_cel04" type="id"/>
+
+
+    <item name="alarm_center_cel10" type="id"/>
+    <item name="alarm_center_cel11" type="id"/>
+    <item name="alarm_center_cel12" type="id"/>
+    <item name="alarm_center_cel13" type="id"/>
+    <item name="alarm_center_cel14" type="id"/>
+
+    <item name="alarm_center_cel20" type="id"/>
+    <item name="alarm_center_cel21" type="id"/>
+    <item name="alarm_center_cel22" type="id"/>
+    <item name="alarm_center_cel23" type="id"/>
+    <item name="alarm_center_cel24" type="id"/>
+
+    <item name="alarm_center_cel30" type="id"/>
+    <item name="alarm_center_cel31" type="id"/>
+    <item name="alarm_center_cel32" type="id"/>
+    <item name="alarm_center_cel33" type="id"/>
+    <item name="alarm_center_cel34" type="id"/>
+
+    <item name="alarm_center_cel40" type="id"/>
+    <item name="alarm_center_cel41" type="id"/>
+    <item name="alarm_center_cel42" type="id"/>
+    <item name="alarm_center_cel43" type="id"/>
+    <item name="alarm_center_cel44" type="id"/>
+
+    <item name="alarm_center_cel50" type="id"/>
+    <item name="alarm_center_cel51" type="id"/>
+    <item name="alarm_center_cel52" type="id"/>
+    <item name="alarm_center_cel53" type="id"/>
+    <item name="alarm_center_cel54" type="id"/>
+
+    <item name="alarm_center_cel60" type="id"/>
+    <item name="alarm_center_cel61" type="id"/>
+    <item name="alarm_center_cel62" type="id"/>
+    <item name="alarm_center_cel63" type="id"/>
+    <item name="alarm_center_cel64" type="id"/>
+
+    <item name="alarm_center_cel70" type="id"/>
+    <item name="alarm_center_cel71" type="id"/>
+    <item name="alarm_center_cel72" type="id"/>
+    <item name="alarm_center_cel73" type="id"/>
+    <item name="alarm_center_cel74" type="id"/>
+
+
+    <item name="alarm_center_cel80" type="id"/>
+    <item name="alarm_center_cel81" type="id"/>
+    <item name="alarm_center_cel82" type="id"/>
+    <item name="alarm_center_cel83" type="id"/>
+    <item name="alarm_center_cel84" type="id"/>
+
+    <item name="alarm_center_cel90" type="id"/>
+    <item name="alarm_center_cel91" type="id"/>
+    <item name="alarm_center_cel92" type="id"/>
+    <item name="alarm_center_cel93" type="id"/>
+    <item name="alarm_center_cel94" type="id"/>
+
+
+
+    <item name="cell_infos" type="id"/>
+    <item name="cell_infos0" type="id"/>
+    <item name="cell_infos1" type="id"/>
+    <item name="cell_infos2" type="id"/>
+    <item name="cell_infos3" type="id"/>
+</resources>

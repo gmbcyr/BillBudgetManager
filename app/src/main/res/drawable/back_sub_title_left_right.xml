@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/primary_dark"
+                android:endColor="@color/transparent"
+                android:type="linear"
+                android:angle="0"
+                android:centerColor="@color/primary_light_100" />
+            <stroke
+                android:width="0dp"
+                android:color="@color/primary_dark" />
+            <corners
+                android:radius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/primary_dark"
+                android:endColor="@color/primary_light_100"
+                android:type="linear"
+                android:angle="0"
+                android:centerX="0"
+                android:centerY="0.3" />
+            <stroke
+                android:width="0dp"
+                android:color="@color/primary_dark" />
+            <corners
+                android:radius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"/>
+        </shape>
+    </item>
+
+
+
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/primary_dark"
+                android:endColor="@color/accent_transparent"
+                android:type="linear"
+                android:angle="0"
+                android:centerX="0.5"
+                android:centerY="0"/>
+            <stroke
+                android:width="0dp"
+                android:color="@color/primary_dark" />
+            <corners
+                android:radius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp"/>
+        </shape>
+    </item>
+
+
+
+
+</layer-list>

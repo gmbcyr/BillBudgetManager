@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <EditText
+        android:id="@+id/txt_saisie"
+        android:layout_width="0dp"
+        android:layout_weight="0.90"
+        android:layout_height="wrap_content"
+        android:imeOptions="actionGo"
+        android:hint="Input text and hit go"/>
+
+    <ImageView
+        android:id="@+id/img_go"
+        android:layout_width="25dp"
+        android:layout_height="33dp"
+        android:src="@drawable/ic_forward_black_24dp"
+        android:gravity="right|bottom"
+        android:layout_weight="0.06"
+        android:contentDescription="@string/go"
+        android:layout_marginTop="3dp"/>
+
+</LinearLayout>
